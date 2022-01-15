@@ -1,1 +1,10 @@
-
+Nome del ristorante: Develeat
+Tipologia Menù: vegano
+Bevande:
+-Acqua naturale
+-Acqua frizzante
+-Coca Cola
+-Fanta
+-Sprite
+-Birra
+-Vino
