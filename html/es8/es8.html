@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
 </head>
 <body>
     <main>
         <section>
+          
             <div>
             <form>
                 <label for="email">Email</label> <br>
-                <input id="email" type="email"> <br>
+                <input id="email" type="email" required> <br>
                 <label for="password">Password</label> <br>
-                <input id="password" type="password"> <br>
+                <input id="password" type="password" required minlength="8" maxlength="12"> <br>
                 <label for="nome e cognome">Nome e cognome</label> <br>
-                <input id="nome e cognome" type="text"> <br>
+                <input id="nome e cognome" type="text" required> <br>
                 <label for="data di nascita">Data di nascita</label> <br>
-                <input id="data di nascita" type="date"> <br>
+                <input id="data di nascita" type="date" required> <br>
                 <label for="telefono">Telefono</label> <br>
-                <input  id="telefono" type="test"> <br>
+                <input  id="telefono" type="test" required> <br>
                 <label for="piani">Piano di abbonamento</label> <br>
                 <select  id="piani" >
                     <optgroup>
@@ -32,22 +34,16 @@
                     </optgroup>
                 </select> <br>
                 <label for="pro">Piano PRO</label> <br>
-                <input  id="pro" type="checkbox"> <br>
+                <input  id="pro" type="checkbox" required> <br>
                 <label for="numero carta">Numero Carta</label> <br>
-                <input  id="numero carta" type="text"> <br>
+                <input  id="numero carta" type="text" required minlength="13" maxlength="16"> <br>
                 <label for="cvc">CVC</label> <br>
-                <input  id="cvc" type="text" > <br>
+                <input  id="cvc" type="text" required minlength="3" maxlength="3" > <br>
                 <label for="scadenza">Scadenza</label> <br>
-                <input type="date"> <br>
+                <input type="date" required> <br>
                 <label for="indirizzo">Indirizzo di fatturazione</label> <br>
-                <input id="indirizzo" type="text"> <br>
+                <input id="indirizzo" type="text" required> <br>
                 <button>Registrati</button>
-
-
-               
-
-
-            </form>
             </div>
         </section>
     </main>
