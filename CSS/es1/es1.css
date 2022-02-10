@@ -1,0 +1,19 @@
+:root {
+    --black : #011212; 
+    
+}
+:root {
+    --arancio: #ff8800;
+    --larghezza: 100px;
+    --altezza: 100px;
+    --arrotondamento: 50px;
+}
+body {
+    color: var(--black);
+}
+.ball {
+    color: var(--arancio);
+    width: var(--larghezza);
+    height: var(--altezza);
+    border-radius: var(--arrotondamento);
+}
