@@ -1,0 +1,131 @@
+body{
+    padding: 400px;
+    background-color: black;
+}
+.container {
+    display: grid;
+    height: 400px;
+    width: 400px;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    
+    
+}
+.div1 {
+    display: grid;
+    grid-row: 3/7;
+    grid-column: 1/2;
+    align-items: center;
+    justify-items: center;
+    background-color:#eef4f5;
+    border-top: solid 2px #a1babf;
+    border-left: solid 2px #a1babf;
+    border-bottom: solid 2px #a1babf;
+    
+    
+}
+.div2 {
+    display: grid;
+    grid-row: 3/7;
+    grid-column: 2/3;
+    align-items: center;
+    justify-items: center;
+    background-color:#eef4f5;
+    border-left: solid 2px #a1babf;
+    border-top: solid 2px #a1babf;
+    border-bottom: solid 2px #a1babf;
+
+}
+.div3 {
+    display: grid;
+    grid-row: 3/7;
+    grid-column: 3/4;
+    align-items: center;
+    justify-items: center;
+    background-color:#eef4f5;
+    border-right: solid 2px #a1babf;
+    border-left: solid 2px #a1babf;
+    border-top: solid 2px #a1babf;
+    border-bottom: solid 2px #a1babf;
+}
+#zero {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 4/5;
+    align-items: center;
+    justify-items: center;
+    background-color: #46494a;
+}
+#diviso {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 4/5;
+    align-items: center;
+    justify-items: center;
+    background-color: #c9d0d1;
+}
+#uguale {
+    display: grid;
+    grid-row: 3/7; 
+    grid-column: 4/5;
+    align-items: center;
+    justify-items: center;
+    background-color:#ed7979
+}
+#spazio1 {
+    display: grid;
+    grid-row: 1/2 ;
+    grid-column: 1/2;
+    align-items: center;
+    justify-items: center;
+    background-color: #46494a;
+}
+#spazio2 {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    align-items: center;
+    justify-items: center;
+    background-color: #46494a;
+}
+#spazio3 {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 3/4;
+    align-items: center;
+    justify-items: center;
+    background-color: #46494a;
+}
+#spazioulteriore {
+    width: 12,74px;
+    height: 24px;
+}
+#più {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    align-items: center;
+    justify-items: center;
+    background-color: #c9d0d1;
+}
+#meno {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    align-items: center;
+    justify-items: center;
+    background-color: #c9d0d1;
+}
+#per {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    align-items: center;
+    justify-items: center;
+    background-color: #c9d0d1;
+}
