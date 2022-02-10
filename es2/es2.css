@@ -1,0 +1,21 @@
+input {
+    display: none;
+  }
+  label {
+    color: #ff8888;
+    border-radius: 10%;
+    border: solid 1px black;
+    background-color: white;
+    padding: 5px;
+  }
+  .expandable {
+    visibility: collapse;
+  }
+  input:checked + label  {
+    color: #88ff88; 
+  }
+  
+  input:checked ~ .expandable
+  {
+    visibility: visible;
+  }
